@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Runtime.InteropServices;
 
-
+#if UNITY_IOS
 namespace EPPZ.Cloud.Plugin
 {
 
@@ -122,3 +122,4 @@ namespace EPPZ.Cloud.Plugin
 
 	}
 }
+#endif
